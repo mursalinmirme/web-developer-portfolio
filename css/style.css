@@ -8,6 +8,7 @@ body{
 }
 /* nav bar styles code start */
 .nav{
+    padding: 50px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,7 +16,7 @@ body{
 .logo h1{
     font-size: 45px;
     color: #181818;
-    
+    font-weight: 800;
 }
 .logo h1 span{
     color: #FD6E0A;
@@ -39,7 +40,7 @@ body{
     outline: none;
     padding: 10px 20px;
     font-size: 20px;
-    font-weight: 700;
+    color: #ffffff;
 }
 /* nav bar styles code end */
 
