@@ -248,7 +248,10 @@ body{
     color: #757575;
     margin-bottom: 25px;
 }
-
+.summary-cv-download-btn{
+    margin-top: 20px;
+    text-align: center;
+}
 
 
 /* A summary of my resume section design end */
