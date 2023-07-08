@@ -184,6 +184,31 @@ body{
 
 /* What I do / my experience section end */
 
+/* A summary of my resume section design start */
+.summary-my-resume{
+    
+}
+.summary-my-resume .my-summary-resume-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 90px 0 60px;
+    color: #181818;
+}
+.summary-my-resume-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.my-education-skills{
+    width: 511px;
+}
+.my-experience-skills{
+    width: 511px;
+}
+
+/* A summary of my resume section design end */
+
+
 
 /* main tag styles code end */
 
