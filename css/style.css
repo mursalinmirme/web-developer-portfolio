@@ -205,6 +205,25 @@ body{
 .my-experience-skills{
     width: 511px;
 }
+.my-education-skills .education-skils-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #474747;
+    font-style: none;
+}
+.single-education-pass{
+    margin: 20px 0;
+}
+.single-education-pass .education-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+.single-education-pass .education-session{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 /* A summary of my resume section design end */
 
