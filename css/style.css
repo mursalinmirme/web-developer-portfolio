@@ -156,20 +156,31 @@ body{
     margin-top: 30px;
 }
 .my-experience .skill-langues-cards .single-cards{
-    width: 230px;
-    padding: 20px;
+    width: 220px;
+    padding: 25px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.116);
 
 }
 .my-experience .skill-langues-cards .single-cards img{
-    width: 44px;
-    height: 44px;
+    width: 45px;
+    height: 45px;
     margin: 20px 0;
+}
+.my-experience .skill-langues-cards .single-cards .react-img{
+    width: 50px;
 }
 .my-experience .skill-langues-cards .single-cards h3{
     font-size: 18px;
+    color: #181818;
+    margin-bottom: 10px;
+    font-weight: 700
 }
-
+.my-experience .skill-langues-cards .single-cards p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+}
 
 /* What I do / my experience section end */
 
