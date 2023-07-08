@@ -42,6 +42,35 @@ body{
     font-size: 20px;
     color: #ffffff;
 }
+
+/* banner */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
 /* nav bar styles code end */
 
 
