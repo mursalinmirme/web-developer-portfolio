@@ -46,11 +46,16 @@ body{
 /* banner */
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, top 20px left 23px;
+    padding: 20px 0;
 }
 .banner{
     padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
@@ -61,15 +66,27 @@ body{
 .banner-content h3{
     font-size: 45px;
     font-weight: 600;
+    color: #474747;
 }
 .banner-content h1{
     font-size: 85px;
     font-weight: 700;
+    color: #181818;
+    margin-bottom: 10px;
 }
 .banner-content p{
     font-size: 18px;
     color: #757575;
     font-weight: 400;
+    margin-bottom: 30px ;
+}
+.banner-content button{
+    margin-right: 15px;
+}
+.banner-content .contatc-btn{
+    background: none;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 /* nav bar styles code end */
 
