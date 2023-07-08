@@ -199,20 +199,17 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.my-education-skills{
+.my-education-skills,.my-experience-skills{
     width: 511px;
 }
-.my-experience-skills{
-    width: 511px;
-}
-.my-education-skills .education-skils-title{
+.my-education-skills,.my-experience-skills .education-skills-title{
     font-size: 22px;
     font-weight: 700;
     color: #474747;
     font-style: none;
 }
-.single-education-pass{
-    margin: 20px 0;
+.single-education-pass,.single-experience-company{
+    margin: 25px 0;
 }
 .single-education-pass .education-title{
     font-size: 20px;
@@ -220,9 +217,38 @@ body{
     color: #474747;
 }
 .single-education-pass .education-session{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin: 10px 0;
+}
+.single-education-pass .education-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 25px;
+}
+/* for experience company */
+
+
+.single-experience-company .company-title{
     font-size: 20px;
     font-weight: 600;
+    color: #474747;
 }
+.single-experience-company .job-experience-time{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin: 10px 0;
+}
+.single-experience-company .experience-from-company{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 25px;
+}
+
 
 
 /* A summary of my resume section design end */
