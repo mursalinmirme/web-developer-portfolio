@@ -262,10 +262,51 @@ body{
 
 
 
+/* footer styles code start */
+.footer{
+    background: #FFF8F3;
+   
+}
+.footer-wrapper{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding: 120px 0;
+}
+.foother-connect-detail{
+    width: 50%;
+    padding: 0 80px;
+}
+.footer-messege-form{
+    width: 50%;
+    padding: 0 80px;
+}
+.footer-messege-form form{
+    width: 411px;
 
-
-
-
-
-
+}
+.footer-messege-form input{
+    width: 90%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.footer-messege-form textarea{
+    width: 90%;
+    resize: none;
+    height: 150px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.footer-messege-form button{
+    font-weight: 500;
+    font-size: 20px;
+}
 
