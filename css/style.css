@@ -48,8 +48,8 @@ body{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom, top 20px left 23px;
-    padding: 20px 0;
+    background-position: right bottom, top 2px left 23px;
+
 }
 .banner{
     padding: 30px 30px 0 150px;
@@ -251,8 +251,12 @@ body{
 .summary-cv-download-btn{
     margin-top: 20px;
     text-align: center;
-}
 
+}
+.summary-cv-download-btn .summery-sec-btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+}
 
 /* A summary of my resume section design end */
 
@@ -265,13 +269,18 @@ body{
 /* footer styles code start */
 .footer{
     background: #FFF8F3;
-   
+    margin-top: 100px;
 }
 .footer-wrapper{
     width: 1140px;
     margin: 0 auto;
     display: flex;
     padding: 120px 0;
+}
+.footer-messege-form h3{
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
 .foother-connect-detail{
     width: 50%;
@@ -308,5 +317,26 @@ body{
 .footer-messege-form button{
     font-weight: 500;
     font-size: 20px;
+    
 }
+.foother-connect-detail{
+    
+}
+.foother-connect-detail h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.foother-connect-detail p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.foother-connect-detail .social-accounts a{
+    color:#FD6E0A;
+    padding: 10px;
+}
+
+
 
