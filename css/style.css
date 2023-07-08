@@ -89,7 +89,55 @@ body{
     border: 1px solid #FD6E0A;
 }
 /* nav bar styles code end */
+/* main tag styles code start */
+.main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* about section start */
+.about{
+    padding: 150px;
+    margin:120px 0;
+    background-color: #FFF8F3;
 
+}
+.about .about-title h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color:#181818;
+}
+.about .about-desc p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+}
+.about-info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-container .about-info{
+    text-align: center;
+}
+.about-info-container .about-info .info-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-info-container .about-info .info-desc{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+/* about section end */
+
+
+
+/* main tag styles code end */
 
 
 
